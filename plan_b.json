@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Free",
+    "recordable_pvs_num": 3000,
+    "recordable_recs_num": 20
+  },
+  {
+    "id": 2,
+    "name": "Iron",
+    "recordable_pvs_num": 20000,
+    "recordable_recs_num": 80
+  },
+  {
+    "id": 3,
+    "name": "Bronze",
+    "recordable_pvs_num": 100000,
+    "recordable_recs_num": 300
+  },
+  {
+    "id": 4,
+    "name": "Silver",
+    "recordable_pvs_num": 150000,
+    "recordable_recs_num": 1000
+  },
+  {
+    "id": 5,
+    "name": "Gold",
+    "recordable_pvs_num": 300000,
+    "recordable_recs_num": 3000
+  },
+  {
+    "id": 6,
+    "name": "Rainbow",
+    "recordable_pvs_num": 100000,
+    "recordable_recs_num": 10000
+  }
+]

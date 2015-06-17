@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>練習</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Yeseva+One">
+	
+	<!-- codecademy libray -->
+	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/drawer.css">
+	<link rel="stylesheet" href="css/textform.css">
+	<link rel="stylesheet" href="css/table.css">
+
+  	<script src="js/jquery.js"></script>
+  	<script src="js/home_button.js"></script>
+  	<script src="js/post.js"></script>
+  	<script src="js/plan.js"></script>
+
+  	<!-- jsonをHTMLにリスト表示 -->
+  	<!-- <script src="jquery.json2html-master/json2html.js"></script>
+  	<script src="jquery.json2html-master/jquery.json2html.js"></script> -->
+</head>
+<body>
+<div id="content">
+	<header id="header">
+		<h1><a href="/">練習サイト</a></h1>
+		<button id="toggle-menu" type="button"><span id="toggle-menu-icon"></span></button>
+	</header>
+	<main id="main">
+    <div="container">
+      <from>
+      	<div class="form-group">
+      		<textarea class="form-control status-box" rows="2" placeholder="Write here!"></textarea>
+      		<div class="input2">
+      		<input type="text">
+      		<input type="text">
+      		</div>
+    	</div>
+      </from>
+    <div class="button-group pull-right">
+    	<p class="counter">140</p>
+    	<a href="#" class="btn btn-primary">Post</a>
+    </div>
+
+	<div class="button-group pull-right">
+	    <a href="#" class="plan">Plan</a>
+	</div>
+
+	<ul id="output"></ul> <!--jsonの要素を表示-->
+
+	<table>
+		<tbody>
+			<tr>
+				<th>id</th>
+				<th>name</th>
+				<th>rec_pvs</th>
+				<th>rec_recs</th>
+			</tr>
+			<tr scope="col">
+				<td id="ID"></td>
+				<td id="Name"></td>
+				<td id="Rec_Pvs"></td>
+				<td id="Rec_Recs"></td>
+			</tr>
+		</tbody>
+	</table>
+
+    <ul class="posts"></ul>
+
+  </main>
+	<footer id="contentinfo">
+		<small>Fotter</small>
+	</footer>
+</div>
+<div id="drawerMenu">
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="#">Events</a></li>
+		<li><a href="#">Materials</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Facebook</a></li>
+		<li><a href="#">Twitter</a></li>
+	</ul>
+</div>
+
+</body>
+</html>

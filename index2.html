@@ -31,25 +31,37 @@
 	</header>
 	<main id="main">
     <div="container">
-      <from>
-      	<div class="form-group">
-      		<textarea class="form-control status-box" rows="2" placeholder="Write here!"></textarea>
-      		<div class="input2">
-      		<input type="text">
-      		<input type="text">
-      		</div>
-    	</div>
-      </from>
-    <div class="button-group pull-right">
+
+      <div class="button-group pull-right">
     	<p class="counter">140</p>
     	<a href="#" class="btn btn-primary">Post</a>
-    </div>
+      </div>
+
+      <ul id="output"></ul> <!--jsonの要素を表示-->
+
+      <from>
+      	<div class="form-group">
+      		<!--<textarea class="form-control status-box" rows="2" placeholder="Write here!"></textarea> -->
+      		<ul>
+      		<h1><div align="left"><strong>PlanをAddしやがれ!</strong></div></h1>
+      			<div class="input2">
+      				<p class="pull-left">ID<input type="text" class="ID"></p>
+      				<p class="pull-left">Name<input type="text" class="Name"></p>
+      				<p class="pull-left">Rec_Pvs<input type="text" class="Rec_Pvs"></p>
+      				<p class="pull-left">Rec_Recs<input type="text" class="Rec_Recs"></p>
+      			</div>
+      		</ul>
+    	</div>
+      </from>
+    
 
 	<div class="button-group pull-right">
-	    <a href="#" class="plan">Plan</a>
+	    <a href="#" class="plan-add">Plan-Add</a>
 	</div>
 
-	<ul id="output"></ul> <!--jsonの要素を表示-->
+	<div class="button-group pull-right">
+	    <a href="/" class="plan">Plan</a>
+	</div>
 
 	<table>
 		<tbody>
